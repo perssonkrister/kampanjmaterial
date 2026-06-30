@@ -1,0 +1,43 @@
+{
+   "id":"kampanjmaterial",
+   "title":"Kampanjmaterial till Drakar och Demoner",
+   "description":"Kampanjmaterial till vår Drakar och Demoner-kampanj",
+   "url":"https://github.com/perssonkrister/kampanjmaterial",
+   "manifest":"https://raw.githubusercontent.com/perssonkrister/kampanjmaterial/master/module.json",
+   "download":"https://github.com/perssonkrister/kampanjmaterial/archive/master.zip",
+   "authors":[
+      {
+         "name":"Krister Persson (Rangertheman)",
+         "discord":"Rangertheman",
+         "flags":{
+            
+         }
+      }
+   ],
+   "version":"0.0.1",
+   "compatibility":{
+      "minimum":"14",
+      "verified":"14"
+   },
+   "relationships":{
+      "systems":[
+         {
+            "id":"dragonbane",
+            "type":"system",
+            "compatibility":{
+               "minimum":"4.0.0"
+            }
+         }
+      ]
+   },
+   "packs":[
+      {
+         "label":"Kampanjmaterial",
+         "name":"kampanjmaterial",
+         "path":"./packs/kampanjmaterial.db",
+         "type":"Adventure",
+         "system":"dragonbane",
+         "banner":"./modules/kampanjmaterial/img/cover_image.png"
+      }
+   ]
+}
