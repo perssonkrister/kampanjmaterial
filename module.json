@@ -14,7 +14,7 @@
          }
       }
    ],
-   "version":"0.0.4",
+   "version":"0.0.5",
    "compatibility":{
       "minimum":"14",
       "verified":"14"
@@ -37,7 +37,7 @@
          "path":"./packs/kampanjmaterial.db",
          "type":"Adventure",
          "system":"dragonbane",
-         "banner":"./modules/kampanjmaterial/img/cover_image.png"
+         "banner":"./modules/kampanjmaterial/img/anka.jpg"
       }
    ]
 }
